@@ -226,7 +226,7 @@ int find_repeats(int* device_input, int length, int* device_output) {
     cudaMemcpy(&cnt, exclusive_sum + length - 1, sizeof(int), cudaMemcpyDeviceToHost);
     // cudaFree(device_cnt);
     cudaFree(exclusive_sum);
-    return cnt;
+    return cnt; 
 }
 
 __global__ void find_repeats_kernel(int *device_input, int length, int *exclusive_sum) {

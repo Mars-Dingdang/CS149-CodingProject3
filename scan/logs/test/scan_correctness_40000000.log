@@ -1,0 +1,10 @@
+---------------------------------------------------------
+Found 1 CUDA devices
+Device 0: NVIDIA GeForce RTX 5070 Laptop GPU
+   SMs:        36
+   Global mem: 8151 MB
+   CUDA Cap:   12.0
+---------------------------------------------------------
+Array size: 40000000
+Student GPU time: 18.486 ms
+Scan outputs are correct!
